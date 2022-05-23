@@ -1,0 +1,8 @@
+SCSS SYNTAX @mixin theme($theme: DarkGray) {
+  background: $theme;
+  box-shadow: 0 0 1px rgba($theme, 0.25);
+  color: #fff;
+}
+.inputFields {
+  @include theme;
+}
